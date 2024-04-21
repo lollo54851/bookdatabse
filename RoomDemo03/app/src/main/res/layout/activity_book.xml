@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/id"
+        android:hint="请输入id查询"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#666"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/title"
+        android:hint="请输入title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#666"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="请输入name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#666"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/pub"
+        android:hint="请输入出版时间"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#666"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/isbn"
+        android:hint="请输入ISBN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#666"
+        android:textSize="25sp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/btn_book"
+            android:text="选项"
+            android:textSize="28sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/btn_update"
+            android:text="更新"
+            android:textSize="28sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
